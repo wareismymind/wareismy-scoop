@@ -14,4 +14,18 @@ jobs:
         shell: pwsh
         run: |
           $res = ./bin/checkver.ps1 -App * -Dir .\bucket
-          git stage .
+          $res
+
+          #Fails when there are uncommitted changes
+          git diff-index --quiet HEAD
+
+          if(-not $?)
+          {
+            #THERE ARE CHANGES
+            git stage .
+            git commit -m "chore(packages): auto update of packages" -m "$res"
+            git push
+          } else
+          {
+            echo "No packages required updates"
+          }
