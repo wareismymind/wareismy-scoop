@@ -2,7 +2,7 @@
   "version": "1.2.0",
   "description": "A console pull request status visualizer utility",
   "homepage": "https://github.com/wareismymind/peer",
-  "url": "https://github.com/wareismymind/peer/releases/download/v$version/peer_win-x64.exe#/peer.exe"
+  "url": "https://github.com/wareismymind/peer/releases/download/v$version/peer_win-x64.exe"
   "license": "MIT",
   "bin": "peer.exe",
   "checkver": "github",
