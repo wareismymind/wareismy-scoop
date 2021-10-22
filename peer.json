@@ -3,7 +3,7 @@
   "description": "A console pull request status visualizer utility",
   "homepage": "https://github.com/wareismymind/peer",
   "url": "https://github.com/wareismymind/peer/releases/download/v1.2.0/peer_win-x64.exe",
-  "hash": "e62a511bb3d399c3b504782d784d803cb3d6b4eed077038f243c663e6042f8d2"
+  "hash": "e62a511bb3d399c3b504782d784d803cb3d6b4eed077038f243c663e6042f8d2",
   "license": "MIT",
   "bin": "peer.exe",
   "checkver": "github",
