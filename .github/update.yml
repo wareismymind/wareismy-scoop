@@ -1,0 +1,17 @@
+name: Update package versions
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update_versions:
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run scoop update
+        shell: pwsh
+        run: |
+          $res = ./bin/checkver.ps1 -App * -Dir .\bucket
+          git stage .
