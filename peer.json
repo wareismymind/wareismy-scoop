@@ -8,11 +8,12 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/wareismymind/peer/releases/download/v$version/peer_win-x64.exe"
+        "url": "https://github.com/wareismymind/peer/releases/download/v$version/peer_win-x64.exe",
+        "hash": {
+          "url": "$url.sha256"
+        }
       },
-      "hash": {
-        "url": "$url.sha256"
-      }
+
     }
   }
 }
