@@ -1,23 +1,23 @@
 {
-  "version": "1.2.0",
-  "description": "A console pull request status visualizer utility",
-  "homepage": "https://github.com/wareismymind/peer",
-  "license": "MIT",
-  "bin": "peer.exe",
-  "checkver": {
-    "github": "https://github.com/wareismymind/peer"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/wareismymind/peer/releases/download/v1.2.0/peer_win-x64.exe#/peer.exe",
-      "hash": "e62a511bb3d399c3b504782d784d803cb3d6b4eed077038f243c663e6042f8d2"
-    }
-  },
-  "autoupdate": {
+    "version": "1.3.1",
+    "description": "A console pull request status visualizer utility",
+    "homepage": "https://github.com/wareismymind/peer",
+    "license": "MIT",
+    "bin": "peer.exe",
+    "checkver": {
+        "github": "https://github.com/wareismymind/peer"
+    },
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/wareismymind/peer/releases/download/v$version/peer_win-x64.exe"
-      }
+        "64bit": {
+            "url": "https://github.com/wareismymind/peer/releases/download/v1.3.1/peer_win-x64.exe",
+            "hash": "82453770c9e8e2afe39d58c49d331f057190813e2c3960e2880ba1c3e9b4a22b"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wareismymind/peer/releases/download/v$version/peer_win-x64.exe"
+            }
+        }
     }
-  }
 }
