@@ -25,7 +25,7 @@ jobs:
           {
             #THERE ARE CHANGES
             git stage .
-            git commit -m "chore(packages): auto update of packages" -m "$res"
+            git commit -m "chore(packages): auto update of packages"
             git push
           } else
           {
