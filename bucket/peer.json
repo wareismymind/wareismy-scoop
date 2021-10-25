@@ -3,7 +3,7 @@
   "description": "A console pull request status visualizer utility",
   "homepage": "https://github.com/wareismymind/peer",
   "license": "MIT",
-  "bin": [["peer_win-x64", "peer.exe"]],
+  "bin": [["peer_win-x64.exe", "peer.exe"]],
   "checkver": {
     "github": "https://github.com/wareismymind/peer"
   },
