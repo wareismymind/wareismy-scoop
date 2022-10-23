@@ -1,5 +1,5 @@
 {
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "A console pull request status visualizer utility",
     "homepage": "https://github.com/wareismymind/peer",
     "license": "MIT",
@@ -14,8 +14,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wareismymind/peer/releases/download/v1.9.0/peer_win-x64.exe",
-            "hash": "8d23f345244f3a2a6337bc1332708ded0df1e41125ead653d59ff6c16b6cdfe7"
+            "url": "https://github.com/wareismymind/peer/releases/download/v1.10.0/peer_win-x64.exe",
+            "hash": "ac9979373d873f1e3b263b9589e2afbd373393ba9a18f60ffd8e552f793f4485"
         }
     },
     "autoupdate": {
